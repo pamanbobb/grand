@@ -1,0 +1,133 @@
+<div class="d-flex justify-content-between mb-1">
+    <div class="me-auto mt-1 text-white">Sukses : <span class="sukses">0</span> | Gagal : <span class="gagal">0</span>
+    </div>
+    <div class="">
+      <div class="input-group">
+        <select class="form-select maintools p-1">
+          <option selected value="null">Tools</option>
+          <option value="addnewlink" title="Edit Bio Dan Link">Edit Profile</option>
+          <!--<option value="sessionid" title="Grab Cookie Session">Grab Cookie</option>-->
+        </select>
+        <select class="form-select akunne p-1">
+          <option selected value="#">Tipe Akun</option>
+          <option value="anyar">Anyar</option>
+          <option value="lawas">Lawas</option>
+        </select>
+        <div class="input-group-append">
+          <button type="button" class="btn inbtn btn-md elper">GO !</button>
+          <div class="spwnCode"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card-group mb-1">
+    <div class="card shadow text-center">
+      <div class="card-header py-3">
+        <h6 class="m-0 text-white">
+          <i class="fa-solid fa-user"></i> Email Account
+        </h6>
+      </div>
+      <div class="card-body">
+        <textarea class="form-control user" cols="3" rows="3" placeholder="Minimal 1, Paste Email"></textarea>
+      </div>
+      <div class="card-footer">
+        <small class="text-white lab_user">Max 30</small>
+      </div>
+    </div>
+    <div class="card shadow text-center">
+      <div class="card-header py-3">
+        <h6 class="m-0 text-white">
+          <i class="fas fa-lock"></i> Password
+        </h6>
+      </div>
+      <div class="card-body">
+        <textarea class="form-control pass" cols="3" rows="3" placeholder="Paste 1 Password Active"></textarea>
+      </div>
+      <div class="card-footer">
+        <small class="text-white lab_pass">Total : 0</small>
+      </div>
+    </div>
+    <div class="card shadow text-center">
+      <div class="card-header py-3">
+        <h6 class="m-0 text-white">
+          <i class="fas fa-lock-open"></i> New Password
+        </h6>
+      </div>
+      <div class="card-body">
+        <textarea class="form-control new_pass" cols="3" rows="3" placeholder="Paste 1 Password Baru"></textarea>
+      </div>
+      <div class="card-footer">
+        <small class="text-white thenew_pass">Total : 0</small>
+      </div>
+    </div>
+  </div>
+  <!--<div class="card shadow text-center mb-1 kuki">
+    <div class="card-header py-3">
+      <h6 class="m-0 text-white">
+        <i class="fas fa-cookie-bite"></i> Session Cookie
+      </h6>
+    </div>
+    <div class="card-body">
+      <textarea class="form-control cookiesid" cols="5" rows="5" placeholder="Session Cookie Login"></textarea>
+    </div>
+    <div class="card-footer">
+      <small class="text-white cookiecount">Total : 0</small>
+    </div>
+  </div>-->
+  <div class="card-group pred">
+    <div class="card shadow text-center">
+      <div class="card-header py-3">
+        <h6 class="m-0 text-white">
+          <i class="fas fa-link"></i> Web Bio Link
+        </h6>
+      </div>
+      <div class="card-body">
+        <textarea class="form-control linkurl" cols="5" rows="5" placeholder="Minimal 1, Web Bio Link"></textarea>
+      </div>
+      <div class="card-footer">
+        <small class="text-white lab_link">Total : 0</small>
+      </div>
+    </div>
+    <div class="card shadow text-center">
+      <div class="card-header py-3">
+        <h6 class="m-0 text-white">
+          <i class="fa fa-quote-left"></i> Biography <i class="fa fa-quote-left"></i>
+        </h6>
+      </div>
+      <div class="card-body">
+        <textarea class="form-control biografy" cols="5" rows="5" placeholder="Isi Kenek Gak Tek Isi Yo Kenek"></textarea>
+      </div>
+      <div class="card-footer">
+        <small class="text-white totalbio">Total : 0</small>
+      </div>
+    </div>
+  </div>
+  <div class="alert alert-dark">
+    <i class="fas fa-bug"></i>
+    <span class="consolelog"> Console</span>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="codemail" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Masukkan Code</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">Email Code</span>
+            </div>
+            <input type="number" class="form-control codemail" placeholder="paste code" aria-describedby="basic-addon1">
+          </div>
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn inbtn incode">Input Code</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
