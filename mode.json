@@ -1,6 +1,6 @@
 {
-    "lock" : "",
-    "tools" : "",
-    "scripted" : "",
+    "lock" : "https://rawcdn.githack.com/pamanbobb/grand/200a0ca76c66b24fca3d14d5e592b83c21c2d8d9/logged.html",
+    "tools" : "https://rawcdn.githack.com/pamanbobb/grand/200a0ca76c66b24fca3d14d5e592b83c21c2d8d9/month.html",
+    "scripted" : "https://rawcdn.githack.com/pamanbobb/grand/200a0ca76c66b24fca3d14d5e592b83c21c2d8d9/hashnull.js",
     "base" : "https://sciencenumber.me/logger"
 }
